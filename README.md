@@ -13,9 +13,9 @@
 
 - Add the new repository
 - Copy your Codecov token (can be found later from Features -> Reveal repo token)
-- In Wercker settings `Add new variable`.
-  - Name: `CODECOV_TOKEN`
-  - Value: paste the token value
+- In Wercker settings under Pipeline, `Add new variable`.
+  - Environment variable name: `CODECOV_TOKEN`
+  - Value (text): paste the token value
   - Check `protected`
   - Save
 
