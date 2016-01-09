@@ -5,9 +5,7 @@
 - Step 5. Ignore Step 5
 - Step 6. If an open source project click 'Make my app public'
 - Create
-- Goto Settings
-  - Scroll down to Infrastructure Stack
-  - Select Ewok (5) from the dropdown.
+
 
 # Code coverage reports with [Codecov](https://codecov.io)
 
