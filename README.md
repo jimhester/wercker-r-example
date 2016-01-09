@@ -30,6 +30,15 @@ The wercker.yml in this repository will automatically do the following.
 
 If you do not want one or more of the above simply remove that step from the file.
 
+# .Rbuildignore
+
+Add the following lines to .Rbuildignore.  Otherwise the package check will produce a  "Non-standard file/directory found" note.
+```
+^wercker\.yml$
+^shim_package\.sh$
+^unshim_package\.sh$
+```
+
 For more information on available options for each step see their pages on the
 [Wercker Registry](https://app.wercker.com/#search/steps/jimhester).
 
